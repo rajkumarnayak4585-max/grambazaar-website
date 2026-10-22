@@ -1,0 +1,45 @@
+
+<section class="hero hero-image" id="home">
+  <div class="hero-content">
+    <span class="tag">🌾 आपका अपना गाँव का बाजार</span>
+    <h1>Gram<span>Bazaar</span></h1>
+    <h2>गाँव का सामान, आपके घर तक!</h2>
+    <p>चावल, गेहूँ, फर्नीचर, गारा, ईंट, रंग और छोटे पौधे।</p>
+    <a class="btn" href="#products">🛒 सामान देखें</a>
+  </div>
+</section>
+
+<style>
+.hero-image {
+  min-height: 330px;
+  background:
+    linear-gradient(90deg, #ffffffef, #ffffffa8, transparent),
+    url("grambazaar.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 45px 6%;
+}
+.hero-image .hero-content {
+  max-width: 570px;
+}
+.hero-image h1 {
+  color: #176b45;
+  font-size: 48px;
+}
+.hero-image h1 span {
+  color: #f5a900;
+}
+.hero-image h2 {
+  font-size: 26px;
+  color: #103d2b;
+  margin-bottom: 12px;
+}
+@media(max-width:600px) {
+  .hero-image {
+    min-height: 300px;
+    background-position: center;
+  }
+  .hero-image h1 {font-size: 36px;}
+  .hero-image h2 {font-size: 21px;}
+}
+</style>
